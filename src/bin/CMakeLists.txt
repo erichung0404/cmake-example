@@ -3,5 +3,4 @@ add_executable(Exe1
 )
 target_link_libraries(Exe1 PRIVATE
     Middle
-    SeamImpl
 )

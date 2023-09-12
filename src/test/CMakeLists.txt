@@ -3,5 +3,4 @@ add_executable(TestExe1
 )
 target_link_libraries(TestExe1 PRIVATE
     MiddleStub
-    SeamStub
 )
