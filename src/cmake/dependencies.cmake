@@ -1,0 +1,6 @@
+find_package(fmt REQUIRED)
+if (TARGET fmt::fmt-header-only)
+  message(DEBUG "🎉 Found fmt::fmt-header-only")
+else()
+  message(FATAL_ERROR "Failed to find fmt::fmt-header-only")
+endif()
